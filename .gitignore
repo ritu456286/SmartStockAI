@@ -1,0 +1,15 @@
+# Ignore .conda folder
+.conda/
+
+# Ignore environment variables
+.env
+key.json
+
+# Ignore cache, pycache, and logs
+__pycache__/
+*.log
+*.db
+
+# Docker files
+*.dockerignore
+*.json

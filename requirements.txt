@@ -1,0 +1,15 @@
+psycopg2-binary
+python-dotenv
+pandas
+streamlit
+google-cloud-bigquery
+plotly 
+langchain_google_genai 
+langchain_experimental 
+SpeechRecognition 
+pyttsx3 
+tabulate
+google-cloud-bigquery-storage
+db-dtypes
+google-auth
+pyaudio

@@ -1,7 +1,5 @@
 # SmartStockAI: Predictive Inventory & Deadstock Management  
 
-![SmartStockAI](https://your-image-link-here.com) <!-- Add a relevant banner image if available -->
-
 ## 🚀 Overview
 SmartStockAI is an AI-driven solution that optimizes inventory management by predicting inventory trends, identifying potential deadstock risks, and generating actionable insights to minimize losses. Leveraging **advanced machine learning models** and **large language models (LLMs)**, it transforms traditional inventory management into a dynamic, data-driven process adaptable to changing market conditions and consumer behaviors.
 

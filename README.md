@@ -1,65 +1,106 @@
-# SmartStockAI: Predictive Inventory & Deadstock Management
+# SmartStockAI: Predictive Inventory & Deadstock Management  
 
-SmartStockAI is an AI-driven solution designed to optimize inventory management by predicting inventory trends, identifying potential deadstock risks, and generating actionable solutions to minimize losses. By leveraging advanced machine learning models and large language models (LLMs), SmartStockAI transforms traditional inventory management into a dynamic, data-driven process that adapts to changing market conditions and consumer behaviors.
+![SmartStockAI](https://your-image-link-here.com) <!-- Add a relevant banner image if available -->
 
-## Features
+## 🚀 Overview
+SmartStockAI is an AI-driven solution that optimizes inventory management by predicting inventory trends, identifying potential deadstock risks, and generating actionable insights to minimize losses. Leveraging **advanced machine learning models** and **large language models (LLMs)**, it transforms traditional inventory management into a dynamic, data-driven process adaptable to changing market conditions and consumer behaviors.
 
-- **Demand Forecasting**: Utilizes the ARIMA_PLUS model in BigQuery ML to predict future sales and identify potential deadstock.
-- **Unstructured Data Analysis**: Processes unstructured data, such as customer feedback and vendor notes, using the Gemini 2.0 LLM to extract actionable insights.
-- **Actionable Recommendations**: Generates strategies to prevent stock from becoming deadstock, helping businesses reduce waste and improve efficiency.
-- **Interactive Visualization**: Provides user-friendly interfaces through Streamlit and Looker Studio for visualizing forecasts and insights.
+🏆 **Winner of Google Build and Blog Marathon '24**
 
-## Architecture
+## 🌐 Live Demo
+🎥 **[Watch Demo Video](https://www.youtube.com/watch?v=6f0wTAcmsTo)**  
+🚀 **Deployment:** Initially deployed on `Cloud Run`, but due to cloud charges, it has been removed. All functionalities are showcased in the demo video.  
+📝 **Read the Full Story:** **[Medium Blog](https://medium.com/google-cloud/smartstockai-predictive-inventory-deadstock-management-ea8cb0556081)**
 
-The high-level architecture of SmartStockAI integrates several Google Cloud tools and services:
+---
 
-- **BigQuery ML**: Implements the ARIMA_PLUS model for demand forecasting.
-- **Gemini 2.0 LLM**: Processes unstructured data to generate actionable insights.
-- **Cloud SQL**: Stores structured relational data.
-- **BigQuery**: Serves as the central analytics engine for large-scale data processing.
-- **Streamlit**: Provides an interactive frontend for visualizing forecasts and insights.
-- **Looker Studio**: Offers collaborative dashboards for deeper analysis.
+## 🔥 Features
 
-## Prerequisites
+✅ **Demand Forecasting** - Uses the **ARIMA_PLUS** model in **BigQuery ML** to predict future sales and identify potential deadstock.  
+✅ **Unstructured Data Analysis** - Utilizes **Gemini 2.0 LLM** to extract insights from customer feedback and vendor notes.  
+✅ **Actionable Recommendations** - Generates strategies to **reduce waste** and **improve efficiency** in inventory management.  
+✅ **Interactive Visualization** - Provides dashboards via **Streamlit** and **Looker Studio** to visualize forecasts and insights.  
+
+---
+
+## 🏗️ Architecture
+
+SmartStockAI integrates multiple **Google Cloud** services for a seamless, scalable solution:
+
+- **BigQuery ML** - Implements the **ARIMA_PLUS** model for demand forecasting.
+- **Gemini 2.0 LLM** - Processes unstructured data to generate insights.
+- **Cloud SQL** - Stores structured relational data.
+- **BigQuery** - Serves as the core analytics engine for large-scale data processing.
+- **Streamlit** - Provides an interactive frontend for data visualization.
+- **Looker Studio** - Offers collaborative dashboards for deeper analysis.
+
+![Architecture Diagram](https://your-architecture-image-link.com) <!-- Add an architecture diagram if available -->
+
+---
+
+## 📌 Prerequisites
 
 Before implementing SmartStockAI, ensure you have the following:
 
-- **Google Cloud Platform Tools**:
-  - Cloud Storage
-  - Cloud SQL
-  - BigQuery
-  - BigQuery ML
-  - Looker Studio
-- **Machine Learning Frameworks and Models**:
-  - ARIMA_PLUS Model
-- **Gemini 2.0 API**
-- **Visualization and Deployment Tool**:
-  - Streamlit
-- **Basic Knowledge Required**:
-  - SQL Queries
-  - Machine Learning Concepts
-  - Python Programming
-  - Google Cloud Platform (GCP)
+### 🔹 **Google Cloud Platform (GCP) Services**
+- Cloud Storage  
+- Cloud SQL  
+- BigQuery  
+- BigQuery ML  
+- Looker Studio  
 
-## Getting Started
+### 🔹 **Machine Learning Models**
+- ARIMA_PLUS Model (for demand forecasting)
 
-1. **Data Acquisition**: Obtain inventory data, such as the Nike Sales dataset available on Kaggle.
-2. **Data Upload**: Upload the dataset to Google Cloud Storage.
-3. **BigQuery Integration**: Enable BigQuery and connect it to Cloud SQL for federated queries to fetch real-time data.
-4. **Model Implementation**: Use BigQuery ML to apply the ARIMA_PLUS model for demand forecasting.
-5. **Unstructured Data Processing**: Integrate the Gemini 2.0 LLM to process unstructured data and generate insights.
-6. **Visualization**: Develop interactive dashboards using Streamlit and Looker Studio to display forecasts and recommendations.
+### 🔹 **APIs & Tools**
+- **Gemini 2.0 API** (for unstructured data analysis)
+- **Streamlit** (for visualization)
 
-## Resources
+### 🔹 **Required Knowledge**
+- SQL Queries  
+- Machine Learning Concepts  
+- Python Programming  
+- Google Cloud Platform (GCP)  
 
-- **BigQuery ML ARIMA_PLUS Model**: [Overview](https://cloud.google.com/vertex-ai/docs/tabular-data/forecasting-arima/overview)
-- **Google Cloud Storage Documentation**: [Cloud Storage](https://cloud.google.com/bigquery/docs/loading-data-cloud-storage-csv)
-- **Looker Studio Documentation**: [Looker Studio](https://lookerstudio.google.com/)
+---
 
-## Acknowledgments
-Thanks to Code Vipassana team for organizing the in-person event.
+## ⚡ Getting Started
 
-## License
+Follow these steps to set up and run SmartStockAI:
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+1️⃣ **Data Acquisition** - Obtain inventory data (e.g., the Nike Sales dataset from Kaggle).  
+2️⃣ **Data Upload** - Upload the dataset to **Google Cloud Storage**.  
+3️⃣ **BigQuery Integration** - Enable **BigQuery** and connect it to **Cloud SQL** for real-time data retrieval.  
+4️⃣ **Model Implementation** - Apply the **ARIMA_PLUS** model in **BigQuery ML** for demand forecasting.  
+5️⃣ **Unstructured Data Processing** - Integrate **Gemini 2.0 LLM** for analyzing customer feedback and vendor notes.  
+6️⃣ **Visualization** - Develop interactive dashboards using **Streamlit** and **Looker Studio**.  
+
+---
+
+## 📚 Resources
+
+🔗 **[BigQuery ML ARIMA_PLUS Model](https://cloud.google.com/vertex-ai/docs/tabular-data/forecasting-arima/overview)**  
+🔗 **[Google Cloud Storage Documentation](https://cloud.google.com/bigquery/docs/loading-data-cloud-storage-csv)**  
+🔗 **[Looker Studio Documentation](https://lookerstudio.google.com/)**  
+
+---
+
+## 🙌 Acknowledgments
+
+A huge thanks to **Code Vipassana** for organizing the in-person event! 🎉
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+### 📩 Have Questions?
+Feel free to **open an issue** or **reach out** via [LinkedIn/Twitter/GitHub Discussions]!
+
+---
+
+⭐ **If you find this project useful, don't forget to give it a star!** ⭐
 
